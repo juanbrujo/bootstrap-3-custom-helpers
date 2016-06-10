@@ -1,0 +1,65 @@
+.no-gutter {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+.no-gutter-left {
+  padding-left: 0!important;
+}
+.no-gutter-right {
+  padding-right: 0!important;
+}
+
+
+.no-margin {
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+.no-margin-left {
+  margin-left: 0!important;
+}
+.no-margin-right {
+  margin-right: 0!important;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+
+/**
+ * horizontal centered columns within rows
+ *
+ * use:
+ * .row.row-centered
+ *  .col-md-8.col-centered
+ *
+ * url: http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-centered-columns
+ */
+.row-centered {
+  text-align: center;
+}
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right:-4px;
+}
+
+
+/**
+ * vertical centered columns
+ *
+ * url: http://stackoverflow.com/a/20548578/2148418
+ */
+.col-v-centered {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  margin-right: -4px;
+}
+
